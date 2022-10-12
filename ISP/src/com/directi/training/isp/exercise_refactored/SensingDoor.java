@@ -1,4 +1,4 @@
-package com.directi.training.isp.exercise;
+package com.directi.training.isp.exercise_refactored;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
@@ -36,12 +36,6 @@ public class SensingDoor implements Door, SensorClient
     public void close()
     {
         _opened = false;
-    }
-
-    @Override
-    public void timeOutCallback()
-    {
-        throw new NotImplementedException();
     }
 
     @Override

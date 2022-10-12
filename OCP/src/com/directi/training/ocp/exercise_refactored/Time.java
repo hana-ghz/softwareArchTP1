@@ -1,4 +1,4 @@
-package com.directi.training.ocp.exercise;
+package com.directi.training.ocp.exercise_refactored;
 
 public class Time extends Resource
 {
