@@ -4,23 +4,23 @@ public class Space extends Resource
 {
     private final int _resourceId;
 
-    public Space(double resourceId)
+    public Space(int resourceId)
     {
         _resourceId = resourceId;
     }
 
     @Override
-    public markResourceSlotFree()
+    public void markResourceSlotFree(int resourceId)
     {
     }
 
     @Override
-    public double markResourceSlotBusy()
+    public void markResourceSlotBusy(int resourceId)
     {
     }
 
     @Override
-    public double findFreeResourceSlot()
+    public int findFreeResourceSlot()
     {
         return 0;
     }

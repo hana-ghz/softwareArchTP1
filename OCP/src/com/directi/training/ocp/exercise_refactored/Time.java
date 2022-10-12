@@ -11,17 +11,17 @@ public class Time extends Resource
     }
 
     @Override
-    public markResourceSlotFree()
+    public void markResourceSlotFree(int resourceId)
     {
     }
 
     @Override
-    public double markResourceSlotBusy()
+    public void markResourceSlotBusy(int resourceId)
     {
     }
 
     @Override
-    public double findFreeResourceSlot()
+    public int findFreeResourceSlot()
     {
         return 0;
     }
